@@ -1,128 +1,229 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HUNANIMA - Machines Agricoles Simples</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background-color: #2e7d32; /* Vert foncé */
-      color: #fdd835; /* Jaune vif */
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1.2em;
-    }
-    nav {
-      background-color: #fdd835;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #2e7d32;
-    }
-    .hero {
-      background: url('https://i.pinimg.com/550x/a9/df/51/a9df5172829f8c05f5b92f97553d41ae.jpg') no-repeat center center/cover;
-      height: 350px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 2px 2px 4px #000;
-      font-size: 2em;
-    }
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    section h2 {
-      color: #2e7d32;
-      margin-bottom: 20px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .gallery img {
-      width: 280px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    footer {
-      background-color: #2e7d32;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    footer p {
-      margin: 5px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Home Refresh LLC | Premium Spatial Architecture & Residential Renovation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0f0d0c; color: #f5f2eb; font-family: 'Plus Jakarta Sans', sans-serif; overflow-x: hidden; }
+        .font-editorial { font-family: 'Tenor Sans', serif; }
+        
+        /* Terracotta & Earth Palette */
+        .text-terracotta { color: #ff5e3a; }
+        .bg-terracotta { background-color: #ff5e3a; }
+        .border-terracotta { border-color: #ff5e3a; }
+        
+        /* Architectural Spatial Grid */
+        .spatial-matrix {
+            background-image: linear-gradient(to right, rgba(255, 94, 58, 0.006) 1px, transparent 1px);
+            background-size: 180px 100%;
+        }
+        
+        /* Deep Scroll Smooth Transitions */
+        .reveal { transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1); opacity: 0; transform: translateY(50px); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        
+        /* Custom Architectural Scrollbar */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #0f0d0c; }
+        ::-webkit-scrollbar-thumb { background: #ff5e3a; }
+
+        .btn-refresh-action {
+            position: relative;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .btn-refresh-action:hover {
+            background-color: #ff5e3a;
+            color: #0f0d0c;
+            box-shadow: 0 0 35px rgba(255, 94, 58, 0.35);
+        }
+    </style>
 </head>
-<body>
+<body class="antialiased spatial-matrix">
 
-  <header>
-    <h1>HUNANIMA</h1>
-    <p>Machines Agricoles Simples et Fiables</p>
-  </header>
+    <!-- Vertical Structural Alignment Baseline -->
+    <div class="fixed top-0 left-8 md:left-24 w-[1px] h-full bg-stone-900/30 pointer-events-none z-0"></div>
 
-  <nav>
-    <a href="#about">À propos</a>
-    <a href="#gallery">Galerie</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Minimalist Spatial Navigation Bar -->
+    <nav class="fixed w-full z-50 py-6 px-6 md:px-24 bg-[#0f0d0c]/90 backdrop-blur-md border-b border-stone-900/40">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-xl md:text-2xl font-normal tracking-wide uppercase font-editorial">
+                TOTAL HOME <span class="text-terracotta font-light lowercase text-xs tracking-widest block md:inline md:ml-1">// refresh</span>
+            </div>
+            <div class="hidden lg:flex items-center space-x-12 text-[11px] tracking-[0.25em] uppercase text-stone-400">
+                <a href="#spatial-vectors" class="hover:text-terracotta transition">01 / Renovations</a>
+                <a href="#registry-validation" class="hover:text-terracotta transition">02 / Identity</a>
+                <a href="#refresh-terminal" class="hover:text-terracotta transition">03 / Consultation</a>
+            </div>
+        </div>
+    </nav>
 
-  <div class="hero">
-    <p>Votre partenaire pour des machines agricoles durables</p>
-  </div>
+    <!-- Stage 1: The Premium Editorial Opening (Hero) -->
+    <section class="min-h-screen flex items-center relative px-6 md:px-24 z-10 pt-24">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-center w-full">
+            <div class="lg:col-span-7">
+                <div class="inline-flex items-center gap-3 px-3 py-1 bg-terracotta/5 border border-terracotta/20 mb-8">
+                    <span class="w-1.5 h-1.5 bg-terracotta rounded-full"></span>
+                    <span class="text-terracotta text-[10px] tracking-[0.3em] uppercase">SPATIAL EVOLUTION VOL_2026</span>
+                </div>
+                <h1 class="text-5xl md:text-8xl font-normal text-white leading-[0.95] tracking-tight mb-8 font-editorial">
+                    REFRESHING <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-terracotta to-stone-500">HOMES.</span>
+                </h1>
+                <p class="text-stone-400 text-sm md:text-base max-w-xl leading-relaxed mb-12 font-light">
+                    Total Home Refresh LLC crafts sophisticated interior structures, coordinates architectural restorations, and executes absolute living space transformations built on enduring spatial harmony.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-5">
+                    <a href="#spatial-vectors" class="border border-terracotta text-white text-xs tracking-widest uppercase px-12 py-5 btn-refresh-action text-center tracking-widest">Explore Transformations</a>
+                    <a href="tel:18287394535" class="bg-stone-950 text-stone-300 text-xs px-10 py-5 hover:text-white transition duration-300 text-center flex items-center justify-center gap-2 border border-stone-900">
+                        +1 (828) 739-4535
+                    </a>
+                </div>
+            </div>
+            
+            <!-- High-End Interior Spatial Asset Architecture -->
+            <div class="lg:col-span-5 relative h-[50vh] lg:h-[70vh] w-full bg-stone-950 p-1 border border-stone-900">
+                <div class="w-full h-full relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover filter brightness-[0.8] contrast-[1.1] transition duration-700 hover:scale-105" alt="Luxury Modern Interior Architecture Living Room Design">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0f0d0c] via-transparent to-transparent"></div>
+                </div>
+                <div class="absolute bottom-4 left-4 text-[10px] text-terracotta tracking-widest font-editorial">// DESIGN_STATION_828</div>
+            </div>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>À propos de nous</h2>
-    <p>
-      Chez <strong>HUNANIMA</strong>, nous nous spécialisons dans la fabrication et la distribution de 
-      <strong>machines agricoles simples</strong> pour faciliter le travail des agriculteurs. 
-      Nos solutions combinent <em>durabilité, efficacité et innovation</em> afin de répondre aux besoins de toutes les exploitations.
-    </p>
-  </section>
+    <!-- Stage 2: Structural Verification & Governance (Deep Scroll 1) -->
+    <section id="registry-validation" class="py-48 px-6 md:px-24 bg-stone-950/20 border-y border-stone-900/40 relative">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-4 reveal">
+                <span class="text-terracotta tracking-[0.4em] text-[10px] block mb-3 uppercase">// ARCHITECTURAL IDENTITY DISCLOSURE</span>
+                <h2 class="text-3xl md:text-5xl font-normal text-white uppercase tracking-tight font-editorial">
+                    THE ENTITY
+                </h2>
+            </div>
+            <div class="lg:col-span-8 reveal text-stone-400 text-sm md:text-base space-y-6 leading-relaxed font-light">
+                <p>
+                    As cataloged and validated within the official administrative profile records of **image_0b9ddf.jpg**, Total Home Refresh LLC is structured as a dedicated residential design, development, and space restoration corporation.
+                </p>
+                <p>
+                    The enterprise directs precise architectural scaling, comprehensive materials procurement, and integrated structural renovations across premium residential micro-zones from its established physical station:
+                </p>
+                <div class="border-l border-terracotta pl-6 py-2 text-sm text-white tracking-wide max-w-xl">
+                    <p class="text-stone-600 text-xs uppercase tracking-widest mb-1">// SYSTEM LOCATION RECORD:</p>
+                    <p class="text-base font-semibold tracking-tight text-terracotta font-sans">11231 Acton Ln King George, VA, 22485-4086, United States</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="gallery">
-    <h2>Nos Machines</h2>
-    <div class="gallery">
-      <img src="http://ogden_images.s3.amazonaws.com/www.motherearthnews.com/images/2014/11/22234423/Boaz-Mini-Combine-jpg.jpg" alt="Mini moissonneuse">
-      <img src="https://krs-agro.ru/products/zagotovka_kormov/elho/19/7.jpg" alt="Machine agricole">
-      <img src="https://img.mod-network.net/files/images/6218ac69d37fb/SimpleFarmSilov1000_6222.jpg" alt="Équipement agricole simple">
-    </div>
-  </section>
+    <!-- Stage 3: Spatial Transformations Matrix (Deep Scroll 2) -->
+    <section id="spatial-vectors" class="py-48 px-6 md:px-24">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-32 text-left reveal">
+                <span class="text-terracotta uppercase tracking-[0.3em] text-[10px] block mb-2">// DESIGN PORTFOLIO VECTOR</span>
+                <h2 class="text-4xl md:text-6xl font-normal text-white tracking-tight font-editorial">TRANSFORMED SPACES</h2>
+            </div>
 
-  <section id="contact">
-    <h2>Contactez-nous</h2>
-    <p><strong>Email :</strong> admin@tyusex.shop</p>
-    <p><strong>Téléphone :</strong> +33 7 38 50 26 36</p>
-    <p><strong>Adresse :</strong> Avenue Baratier, Montmorency, 95160, France</p>
-  </section>
+            <!-- Absolute Flat Linear Flow Layout - Zero Closed Containers -->
+            <div class="grid lg:grid-cols-2 gap-24">
+                <!-- Transformation Unit 1 -->
+                <div class="reveal group">
+                    <div class="overflow-hidden mb-8 h-96 bg-stone-950 border border-stone-900">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter brightness-[0.75] contrast-[1.1] transition duration-500 group-hover:brightness-95" alt="Minimalist Luxury Kitchen Renovation Architecture">
+                    </div>
+                    <span class="text-terracotta text-xs block mb-2">// SPATIAL VECTOR _01</span>
+                    <h3 class="text-2xl font-normal text-white uppercase mb-3 font-editorial">High-End Kitchen Layouts</h3>
+                    <p class="text-stone-500 text-xs leading-relaxed font-light">Re-engineering culinary spaces with high-grade cabinetry dynamics, custom material islands, and fluid movement pathways.</p>
+                </div>
 
-  <footer>
-    <p>&copy; 2025 HUNANIMA - Tous droits réservés.</p>
-  </footer>
+                <!-- Transformation Unit 2 -->
+                <div class="reveal group lg:translate-y-24">
+                    <div class="overflow-hidden mb-8 h-96 bg-stone-950 border border-stone-900">
+                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter brightness-[0.75] contrast-[1.1] transition duration-500 group-hover:brightness-95" alt="Modern Premium Bathroom Remodeling Interior">
+                    </div>
+                    <span class="text-terracotta text-xs block mb-2">// SPATIAL VECTOR _02</span>
+                    <h3 class="text-2xl font-normal text-white uppercase mb-3 font-editorial">Sophisticated Bath Suites</h3>
+                    <p class="text-stone-500 text-xs leading-relaxed font-light">Converting simple functional areas into premium wellness retreats utilizing clean tiling lines and minimalist geometric storage fixtures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Stage 4: Minimalist Space Manifesto (Deep Scroll 3) -->
+    <section class="py-44 relative overflow-hidden bg-black border-y border-stone-900">
+        <div class="max-w-5xl mx-auto text-center px-6 reveal">
+            <span class="text-terracotta text-xs tracking-[0.4em] uppercase block mb-4">// THE COMPOSITION PRINCIPLE</span>
+            <h3 class="text-3xl md:text-5xl text-white font-normal uppercase tracking-tight leading-tight font-editorial">
+                "TRUE REFRESHMENT IS NOT ADDING FLUFF. IT IS STRIPPING AWAY CLUTTER TO REVEAL THE INNER PURITY OF REINFORCED STRUCTURE."
+            </h3>
+        </div>
+    </section>
+
+    <!-- Stage 5: Systematic Refinement Evolution (Deep Scroll 4) -->
+    <section class="py-48 px-6 md:px-24 bg-[#141211]">
+        <div class="max-w-4xl mx-auto reveal text-center">
+            <span class="text-terracotta text-xs tracking-widest block mb-4">// EXECUTION STAGES</span>
+            <h2 class="text-3xl md:text-4xl font-normal text-white uppercase tracking-tight font-editorial">THE REFRESH PROCESS</h2>
+            
+            <div class="space-y-12 text-left mt-20 max-w-2xl mx-auto">
+                <div class="border-b border-stone-900 pb-8">
+                    <h4 class="text-terracotta text-xs mb-2 uppercase tracking-wider">STAGE 01 // ARCHITECTURAL INTENT MAPPING</h4>
+                    <p class="text-stone-500 text-xs font-light leading-relaxed">We audit your property's footprint and lighting structure to outline spatial potential and functional flow options.</p>
+                </div>
+                <div class="border-b border-stone-900 pb-8">
+                    <h4 class="text-white text-xs mb-2 uppercase tracking-wider">STAGE 02 // MATERIAL SYNERGY AND CURATION</h4>
+                    <p class="text-stone-500 text-xs font-light leading-relaxed">Selecting premium hardware textures, sustainably compiled stone types, and precise wall tones tailored to your visual goals.</p>
+                </div>
+                <div>
+                    <h4 class="text-white text-xs mb-2 uppercase tracking-wider">STAGE 03 // MASTER CRAFT DEPLOYMENT</h4>
+                    <p class="text-stone-500 text-xs font-light leading-relaxed">Deploying our highly precise execution crews to implement internal reconstruction with zero environmental friction and absolute detail accuracy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stage 6: Spatial Intake Gate Footer (Deep Scroll 5) -->
+    <footer id="refresh-terminal" class="py-32 px-6 md:px-24 bg-black border-t-2 border-terracotta relative z-10">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-5xl md:text-7xl font-normal mb-12 text-white tracking-tight uppercase font-editorial">CONSULTATION</h2>
+                <div class="space-y-12">
+                    <div>
+                        <span class="text-stone-800 text-[10px] tracking-widest block mb-1 uppercase">// INTAKE ROUTING NETWORK</span>
+                        <a href="mailto:contact@totalhomerefresh.org" class="text-xl md:text-2xl font-bold text-terracotta hover:text-white transition tracking-tight break-all">contact@totalhomerefresh.org</a>
+                    </div>
+                    <div>
+                        <span class="text-stone-800 text-[10px] tracking-widest block mb-1 uppercase">// TELEPHONIC COMMUNICATIONS LINE</span>
+                        <a href="tel:18287394535" class="text-xl md:text-2xl font-bold text-white hover:text-terracotta transition tracking-tight">+1 (828) 739-4535</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:text-right flex flex-col justify-end items-start lg:items-end mt-12 lg:mt-0">
+                <span class="text-stone-800 text-[10px] tracking-widest block mb-2 uppercase">// COMMAND GEOGRAPHY RECORDS</span>
+                <p class="text-xl text-stone-500 tracking-tight uppercase font-light leading-tight font-editorial">
+                    11231 Acton Ln King<br>
+                    George, VA, 22485-4086<br>
+                    United States
+                </p>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto mt-28 pt-8 border-t border-stone-900 flex flex-col md:flex-row justify-between text-[10px] text-stone-600 uppercase tracking-widest">
+            <p>&copy; 2026 TOTAL HOME REFRESH LLC. LIVING SPACES MASTERED.</p>
+            <p>VIRGINIA GATEWAY // USA</p>
+        </div>
+    </footer>
+
+    <!-- Intersection Observer Script for Smooth Fluid Transitions -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
